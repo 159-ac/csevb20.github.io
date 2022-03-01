@@ -17,6 +17,9 @@
         padding: 4px;
         border-radius: 10px;
     }
+table { 
+        box-shadow: 5px 10px #888888;
+      }
     th{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
