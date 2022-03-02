@@ -1,5 +1,5 @@
     body{
-        margin-left: 10px;
+        margin-left: 10px; 
         padding-left: 10px;
     }
     header{
@@ -13,11 +13,12 @@
         -webkit-text-stroke-color: rgb(0, 119, 255);
     }
     nav{
-        background-color: rgba(153, 162, 165, 0.116);
+        background-color: rgba(206, 216, 219, 0.534);
         padding: 4px;
         border-radius: 10px;
     }
-table { 
+    table { 
+        
         box-shadow: 5px 10px #aaa9a9;
       }
     th{
@@ -55,12 +56,11 @@ a:visited{
 }
   
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(3, 0, 156);
-    font-size: 105%;
+    font-size: 102%;
   }
   
 a:active {
     color: rgb(18, 1, 58);
-    font-size: 110%;
   } 
