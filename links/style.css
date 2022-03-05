@@ -1,7 +1,8 @@
-    body{
+    body{   
         margin-left: 10px; 
         padding-left: 10px;
-    }
+        }
+
     header{
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         color: rgba(0, 162, 255, 0.596);
@@ -11,37 +12,56 @@
            
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: rgb(0, 119, 255);
-    }
+        }
+
     nav{
         background-color: rgba(206, 216, 219, 0.534);
         padding: 4px;
         border-radius: 10px;
+        }
+    
+    .marqdiv{
+        margin: 3px;
     }
-    table { 
-        box-shadow: 8px 8px 8px 0px rgb(158, 158, 158);
-      }
+
+    table{
+        border-radius: 4px;
+        box-shadow: 8px 8px 10px  rgb(158, 158, 158);
+        }
+
+    .tabdiv{
+        overflow-x: auto;
+        }
+
     th{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
+        }
+
     td{
         text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; 
         padding: 5px;
-        font-weight: bolder;
+        font-weight: bolder;        
+        }
         
-    }
+    tr:nth-child(odd) {
+        background-color: #f7f7f7;
+        }
+
     .alagse{
         background-color: #f0f0f0;
         padding: 10px;
         border-radius: 10px;
-    }
+        }
+
     h1{
         font-size: 35px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgba(0, 183, 255, 0.575);
-    }
-   .tr{
-       color: rgb(216, 9, 216);
-   }
+        }
+
+   .timetr{
+        color: rgb(216, 9, 216);
+        }
   
   
 
@@ -63,3 +83,10 @@ a:hover {
 a:active {
     color: rgb(18, 1, 58);
   } 
+
+  .nav1:hover img{
+      transform: scale(1.2);
+  }
+  .cla1:hover img{
+      transform: scale(1.4);
+  }
