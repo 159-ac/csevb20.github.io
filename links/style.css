@@ -18,8 +18,7 @@
         border-radius: 10px;
     }
     table { 
-        
-        box-shadow: 5px 10px #aaa9a9;
+        box-shadow: 8px 8px 8px 0px rgb(158, 158, 158);
       }
     th{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
