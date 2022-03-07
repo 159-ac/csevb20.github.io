@@ -44,9 +44,9 @@ nav{
 .pdflinks a:hover {background-color: #ddd;}
 .nav1:hover .pdflinks {display: block;}
     
-.marqdiv{
+/* .marqdiv{
     margin: 3px;
-    }
+    } */
 
 table{
     border-radius: 4px;
