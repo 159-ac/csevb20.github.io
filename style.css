@@ -1,6 +1,11 @@
+#my{
+    zoom: 100%;
+    }
+
 body{   
     margin-left: 0px; 
     padding-left: 10px;
+    background-color: rgba(0, 247, 255, 0.068);
     }
 
 header{
@@ -18,7 +23,7 @@ header{
     }
         
 nav{
-    background-color: rgba(206, 216, 219, 0.534);
+    background-color: rgba(37, 138, 131, 0.096);
     padding: 3px;
     border-radius: 10px;
     }
@@ -29,8 +34,6 @@ nav{
     background-color: #f2f2f2;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.384);
     position:absolute; 
-    top: 27%;
-    right: 21%;
     z-index: 1;
     
 }
@@ -51,6 +54,7 @@ nav{
 table{
     border-radius: 4px;
     box-shadow: 8px 8px 10px  rgb(158, 158, 158);
+    width:max-content;
     }
 
 .tabdiv{
@@ -65,6 +69,7 @@ td{
     text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; 
     padding: 5px;
     font-weight: bolder;        
+    height:23px;
     }
         
 tr:nth-child(odd) {
@@ -112,6 +117,7 @@ a:active {
       transform: scale(1.2);
   }
   .cla1:hover img{
+      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
       transform: scale(1.4);
   }
 
