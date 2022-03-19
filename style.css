@@ -118,7 +118,7 @@ a:active {
   }
   .cla1:hover img{
       transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-      transform: scale(1.4);
+      transform: scale(1.1);
   }
 
 /* .classroom{
